@@ -13,17 +13,17 @@ This project shows how to dockerize Vue JS application
 
 On WebStorm toolbar 'Edit Configuration' choose Docker > Dockerfile, and fill in below:
 
-![](image/config.jpg)
+![](jpg/config.jpg)
 
 ### Run Docker
 
 And then Run 'Dockerfile' configuration, on 'Service' tab you'll see new container created
 
-![](image/service.jpg)
+![](jpg/service.jpg)
 
 ### Test on Browser
 
 The Vue application will run on your http://localhost:8080
 
-![](image/chrome.jpg)
+![](jpg/chrome.jpg)
 

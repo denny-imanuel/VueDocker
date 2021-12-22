@@ -5,7 +5,6 @@ RUN npx --package @vue/cli vue
 WORKDIR /app
 ENV PATH=${PATH}:/app
 COPY . .
-# install modules
+# build and run
 RUN npm install
-# run application
-CMD npm run build
+CMD npm run serve
