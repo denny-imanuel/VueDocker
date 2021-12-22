@@ -1,24 +1,29 @@
 # vue-docker
 
-## Project setup
-```
-npm install
-```
+This project shows how to dockerize Vue JS application
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Requirements
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. WebStorm IDE - you need to install WebStorm on your Windows machine
+2. Docker Desktop - you need to install Docker Desktop for Windows
+3. NodeJS Service - you need to install Node.JS ver 16.10.0
+4. NodeJS Image - you need to pull node:16.10.0 image from Docker Hub
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Edit Configuration
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+On WebStorm toolbar 'Edit Configuration' choose Docker > Dockerfile, and fill in below:
+
+![](image/config.jpg)
+
+### Run Docker
+
+And then Run 'Dockerfile' configuration, on 'Service' tab you'll see new container created
+
+![](image/service.jpg)
+
+### Test on Browser
+
+The Vue application will run on your http://localhost:8080
+
+![](image/chrome.jpg)
+
