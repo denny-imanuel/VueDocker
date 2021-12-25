@@ -1,6 +1,6 @@
 # vue-docker
 
-This project shows how to dockerize Vue JS application
+This project shows how to dockerize web application build using Vue JS web development framework for Java Script programming language.
 
 ## Requirements
 
